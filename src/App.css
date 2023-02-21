@@ -1,0 +1,38 @@
+.app_form-container {
+  margin-top: 1.5rem;
+  width: 400px;
+}
+
+.app_form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app_form input {
+  height: 3rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  min-width: 320px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.app_form button {
+  color: #666;
+  width: 4rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.app_form button:hover {
+  background-color: lightgrey;
+}

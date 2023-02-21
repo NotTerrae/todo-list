@@ -1,0 +1,31 @@
+.todoList {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.todoItem {
+  min-width: 100%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: #666;
+  padding: 0.5rem;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow-wrap: break-word;
+}
+
+.list_item_container {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.remove_button {
+  font-weight: bold;
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 1rem;
+  cursor: pointer;
+}
